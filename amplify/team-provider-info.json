@@ -15,5 +15,25 @@
                 "awsmeetup055b14b9": {}
             }
         }
+    },
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "awsmeetup-prod-20190727121331-authRole",
+            "UnauthRoleArn": "arn:aws:iam::009056920464:role/awsmeetup-prod-20190727121331-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::009056920464:role/awsmeetup-prod-20190727121331-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "awsmeetup-prod-20190727121331-deployment",
+            "UnauthRoleName": "awsmeetup-prod-20190727121331-unauthRole",
+            "StackName": "awsmeetup-prod-20190727121331",
+            "StackId": "arn:aws:cloudformation:us-east-1:009056920464:stack/awsmeetup-prod-20190727121331/cf59d760-b04e-11e9-8776-12391cfc54f4"
+        },
+        "categories": {
+            "auth": {
+                "awsmeetup055b14b9": {}
+            },
+            "function": {
+                "bookslambda": {}
+            }
+        }
     }
 }
